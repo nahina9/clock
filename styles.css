@@ -7,7 +7,7 @@ body {
       margin: 0;
       font-family: 'Courier New', monospace; /* Use a monospaced font */
       background-color: #111; /* Dark background color */
-      color: #ccc; /* White text color */
+      color: #bbb; /* White text color */
     }
 
     #clock-container {
