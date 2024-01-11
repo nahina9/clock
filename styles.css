@@ -6,8 +6,8 @@ body {
       height: 100vh;
       margin: 0;
       font-family: 'Courier New', monospace; /* Use a monospaced font */
-      background-color: #111; /* Dark background color */
-      color: #bbb; /* White text color */
+      background-color: #000; /* Dark background color */
+      color: #AAA; /* White text color */
     }
 
     #clock-container {
