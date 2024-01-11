@@ -1,34 +1,34 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Courier New', monospace;
-  background-color: #111;
-  color: #fff;
-}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Courier New', monospace; /* Use a monospaced font */
+      background-color: #111; /* Dark background color */
+      color: #fff; /* White text color */
+    }
 
-#clock-container {
-  display: flex;
-  align-items: center;
-}
+    #clock-container {
+      display: flex;
+      align-items: center;
+    }
 
-#clock {
-  font-size: 4em;
-}
+    #clock {
+      font-size: 4em; /* 250% of 2em */
+    }
 
-#ampm-container {
-  display: flex;
-  flex-shrink: 0;
-  margin-left: 5px;
-}
+    #ampm-container {
+      display: flex;
+      flex-shrink: 0; /* Prevent flex container from shrinking */
+      margin-left: 5px; /* Adjust the margin to create spacing */
+    }
 
-#ampm {
-  font-size: 1.6em;
-}
+    #ampm {
+      font-size: 1.6em; /* 250% of 0.8em */
+    }
 
-#date {
-  font-size: 1.6em;
-}
+    #date {
+      font-size: 1.6em; /* 250% of 0.8em */
+    }
