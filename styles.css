@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #111;
+  color: #fff;
+}
+
+#clock-container {
+  display: flex;
+  align-items: center;
+}
+
+#clock {
+  font-size: 4em;
+}
+
+#ampm-container {
+  display: flex;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+
+#ampm {
+  font-size: 1.6em;
+}
+
+#date {
+  font-size: 1.6em;
+}
