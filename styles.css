@@ -6,7 +6,7 @@ body {
       height: 100vh;
       margin: 0;
       font-family: 'Courier New', monospace; /* Use a monospaced font */
-      background-color: #111; /* Dark background color */
+      background-color: #000; /* Dark background color */
       color: #fff; /* White text color */
     }
 
@@ -16,7 +16,7 @@ body {
     }
 
     #clock {
-      font-size: 4em; /* 250% of 2em */
+      font-size: 6em; /* 250% of 2em */
     }
 
     #ampm-container {
@@ -26,9 +26,9 @@ body {
     }
 
     #ampm {
-      font-size: 1.6em; /* 250% of 0.8em */
+      font-size: 2.2em; /* 250% of 0.8em */
     }
 
     #date {
-      font-size: 1.6em; /* 250% of 0.8em */
+      font-size: 2.2em; /* 250% of 0.8em */
     }
